@@ -1,0 +1,34 @@
+/* .customBg{
+    background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
+}
+.customBglight{
+    background: #BCD2D0;
+} */
+
+#scrollBar {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.scrollbar-track-y{
+    display: none;
+}
+.scrollBarHide::-webkit-scrollbar {
+    display: none; /* Webkit */
+}
+ul li::before{
+    content: '✓';
+    /* color: rgb(234, 179, 8); */
+    font-size: 14px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+
+.profile-zoom{
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+    opacity: 0;
+}
+.profilePic:hover .profile-zoom{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(.9);
+}

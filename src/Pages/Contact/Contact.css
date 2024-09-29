@@ -1,0 +1,9 @@
+.map{
+    background: url('../../Components/images/contactBg.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.message{
+    scrollbar-width: none;
+}

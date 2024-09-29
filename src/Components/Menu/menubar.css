@@ -1,0 +1,10 @@
+.menuBar{
+    box-shadow: 2px 1px 10px #20202a;
+    transition: width .3s ease-in-out;
+}
+.navitem{
+    height: calc(100% - 200px);
+}
+nav .active{
+    color: #FFC107 !important;
+}

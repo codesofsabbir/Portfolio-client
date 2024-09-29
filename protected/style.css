@@ -1,0 +1,11 @@
+.hideScroll {
+    max-height: 500px;
+    overflow-y: auto; 
+    scrollbar-width: none; 
+}
+
+.projectDetailsScrollbar {
+  max-height: 620px;
+  overflow-y: auto; 
+  scrollbar-width: none; 
+}

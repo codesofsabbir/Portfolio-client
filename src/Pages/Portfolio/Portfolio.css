@@ -1,0 +1,7 @@
+.portfolioDetailsShow{
+    transition: all .8s ease-in-out;
+}
+
+.portfolioItem:hover .portfolioDetailsShow{
+    bottom: 0;
+}

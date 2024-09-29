@@ -1,0 +1,4 @@
+portfolio section api fetching problem
+portfolio navigation bar add a button name excel
+Make CV
+deploy project

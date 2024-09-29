@@ -1,0 +1,6 @@
+.blogItemImage{
+    transition: .3s ease-in;
+}
+.blogItemImage:hover{
+    transform: scale(1.2);
+}
